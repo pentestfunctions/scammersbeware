@@ -1,0 +1,27 @@
+How to annoy scammers:
+
+Step 1. Look through facebook community groups for scam text messages people have received.
+Step 2. Take the domain (remove subdomain if exists) and look on https://securitytrails.com
+Step 3. Extract all subdomains listed on securitytrails and then also check the current server they are being hosted on. You will quickly find each subdomain sharing severs with other domains/urls.
+Step 4. Check each subdomain and alternative domain you come across for more shared domains.
+Step 5. Report all to google and their hosting provider.
+Step 6. Run directory scan against each domain with something like:
+dirsearch -u scamsite.com -w /usr/share/wordlists/dirb/common.txt
+Step 7. Once you identify the admin panel location, try default credentials.
+
+Profit.
+
+If any site responds with a 500 on the directory scan, check the error page manually and look for exposed log file names and try access those in your browser.
+
+Login and delete all phished customer data.
+
+If you decide to go for a shell, identify the current backup file names - usually like this 
+"scamsitecom (1).zip"
+"scamsite (1).zip"
+"scamsite.zip"
+"backup.zip"
+"scamsite_backup (1).zip"
+
+This is because they often copy paste the backup files across servers to extract to continue their bullshit.
+
+<3
