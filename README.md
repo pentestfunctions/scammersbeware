@@ -4,7 +4,10 @@
 ## Introduction :bulb:
 Tired of online scammers? Fight back! This guide outlines a step-by-step method to identify, report, and potentially disrupt scam websites.
 
-![Banner](https://example.com/banner.jpg) *Image for representation purposes only*
+<p align="center">
+  <img src="ScamMascot.png" alt="Alt Text">
+</p>
+
 
 ## Steps to Annoy Scammers :footprints:
 
